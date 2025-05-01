@@ -84,7 +84,7 @@ export async function loader({ request }) {
                                                     className={`lable position-absolute bottom-0 end-0 ps-5 pe-4  fw-bold
                                                              ${item.isFree ? 'free text-black' : 'pro text-white'}   
                                                         `}>
-                                                    {item.isFree ? 'Free' : 'PRO'}
+                                                    {item.isFree ? 'Free' : 'PRO'} 
                                                 </div>
                                             </div>
                                         </Link>
